@@ -29,19 +29,75 @@ Esto significa que:
 ---
 
 ## 🚀 Instalación
-(Próximamente)
+### Opción 1: Instalación automática desde manifest
+
+1. Abre Foundry VTT.
+2. Ve a **"Configuración de sistemas de juego"** → **"Instalar sistema"**.
+3. Pega esta URL en el campo de manifiesto:
+
+```
+https://raw.githubusercontent.com/AstonRendar/Las-Torres-Malditas-Game-System/main/system.json
+```
+
+4. Haz clic en **"Instalar"**.
+5. Una vez instalado, selecciona **“Las Torres Malditas”** como sistema al crear un nuevo mundo.
 
 ---
 
-## 📁 Estructura del repositorio
+### Opción 2: Instalación manual
+
+1. Descarga el sistema desde GitHub:
+   [Descargar ZIP](https://github.com/AstonRendar/Las-Torres-Malditas-Game-System/archive/refs/heads/main.zip)
+2. Extrae el contenido en la carpeta `Data/systems/` de tu instalación de Foundry VTT.
+3. Renombra la carpeta resultante a `las-torres-malditas` si es necesario.
+4. Inicia Foundry y crea un nuevo mundo usando **Las Torres Malditas** como sistema.
+
+---
+
+¿Quieres que prepare también los bloques para requisitos (por ejemplo, `libWrapper`) y compatibilidad con Foundry?
+
+
+---
+
+## 📁 Propuesta de estructura del repositorio
 ```
 las-torres-malditas/
-├── system/              # Código del sistema para Foundry
-├── lang/                # Archivos de localización
-├── packs/               # Compendios de talentos, razas, objetos, etc.
-├── assets/              # Imágenes, iconos y recursos gráficos
-├── LICENSE              # Licencia MIT para el código
-├── README.md            # Este archivo
+├── assets/
+│   ├── tokens/
+│   ├── retratos/
+│   └── logos/
+├── docs/                      # Lore y documentación externa en Markdown
+│   ├── historia.md
+│   ├── magia.md
+│   ├── razas.md
+│   ├── facciones.md
+│   └── religiones.md
+├── lang/
+│   └── es.json                # Traducción al español
+├── packs/                     # Todos los compendios del sistema
+│   ├── habilidades.db
+│   ├── talentos.db
+│   ├── razas.db
+│   ├── enemigos.db
+│   ├── pnj-pregenerados.db
+│   ├── objetos.db
+│   ├── lore-historia.db
+│   ├── lore-religiones.db
+│   └── lore-facciones.db
+├── scripts/
+│   ├── sistema/               # Lógica y mecánicas
+│   └── macros/                # Macros personalizadas
+├── styles/
+│   └── sistema.css
+├── templates/
+│   ├── actor/
+│   ├── item/
+│   └── chat/
+├── LICENSE
+├── README.md
+├── system.json                # Configuración base del sistema
+└── template.json              # (Opcional)
+
 ```
 
 ---
@@ -53,4 +109,4 @@ Inspirado por años de pasión por el rol, la narrativa y la tecnología.
 
 ---
 
-> "El ciclo se repite, pero los Nexar jamás son los mismos."
+> "Todo lo que ocurre, ya ocurrió. Las Torres son el eco de la voluntad perdida."
