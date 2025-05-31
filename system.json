@@ -1,0 +1,34 @@
+{
+  "id": "las-torres-malditas",
+  "title": "Las Torres Malditas",
+  "description": "Sistema de rol completo para Foundry VTT, con ambientación propia, mecánica original y soporte completo de lore, talentos y enemigos.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "authors": [
+    {
+      "name": "José Enrique Labordeta"
+    }
+  ],
+  "scripts": ["scripts/main.js"],
+  "styles": ["styles/system.css"],
+  "packs": [],
+  "languages": [
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json"
+    }
+  ],
+  "esmodules": ["scripts/main.js"],
+  "socket": false,
+  "gridDistance": 1,
+  "gridUnits": "m",
+  "primaryTokenAttribute": "atributos.salud",
+  "secondaryTokenAttribute": "atributos.energia",
+  "manifest": "https://raw.githubusercontent.com/AstonRendar/Las-Torres-Malditas-Game-System/main/system.json",
+  "download": "https://github.com/AstonRendar/Las-Torres-Malditas-Game-System/archive/refs/heads/main.zip",
+  "license": "MIT"
+}
