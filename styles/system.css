@@ -1,0 +1,8 @@
+/* system.css - estilos mínimos para Las Torres Malditas */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #9710e6;
+    color: #2bd825;
+    margin: 0;
+    padding: 20px;
+}
