@@ -40,7 +40,7 @@
 			}
 		]
 	},
-  "manifest": "https://raw.githubusercontent.com/AstonRendar/Las-Torres-Malditas-Game-System/main/system.json",
-  "download": "https://github.com/AstonRendar/Las-Torres-Malditas-Game-System/archive/refs/heads/main.zip",
+  "manifest": "https://raw.githubusercontent.com/AstonRendar/Las-Torres-Malditas-Game-System/master/system.json",
+  "download": "https://github.com/AstonRendar/Las-Torres-Malditas-Game-System/archive/refs/heads/master.zip",
   "license": "MIT"
 }
