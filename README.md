@@ -36,12 +36,42 @@ Esto significa que:
 ## 📁 Estructura del repositorio
 ```
 las-torres-malditas/
-├── system/              # Código del sistema para Foundry
-├── lang/                # Archivos de localización
-├── packs/               # Compendios de talentos, razas, objetos, etc.
-├── assets/              # Imágenes, iconos y recursos gráficos
-├── LICENSE              # Licencia MIT para el código
-├── README.md            # Este archivo
+├── assets/
+│   ├── tokens/
+│   ├── retratos/
+│   └── logos/
+├── docs/                      # Lore y documentación externa en Markdown
+│   ├── historia.md
+│   ├── magia.md
+│   ├── razas.md
+│   ├── facciones.md
+│   └── religiones.md
+├── lang/
+│   └── es.json                # Traducción al español
+├── packs/                     # Todos los compendios del sistema
+│   ├── habilidades.db
+│   ├── talentos.db
+│   ├── razas.db
+│   ├── enemigos.db
+│   ├── pnj-pregenerados.db
+│   ├── objetos.db
+│   ├── lore-historia.db
+│   ├── lore-religiones.db
+│   └── lore-facciones.db
+├── scripts/
+│   ├── sistema/               # Lógica y mecánicas
+│   └── macros/                # Macros personalizadas
+├── styles/
+│   └── sistema.css
+├── templates/
+│   ├── actor/
+│   ├── item/
+│   └── chat/
+├── LICENSE
+├── README.md
+├── system.json                # Configuración base del sistema
+└── template.json              # (Opcional)
+
 ```
 
 ---
@@ -53,4 +83,4 @@ Inspirado por años de pasión por el rol, la narrativa y la tecnología.
 
 ---
 
-> "El ciclo se repite, pero los Nexar jamás son los mismos."
+> "Todo lo que ocurre, ya ocurrió. Las Torres son el eco de la voluntad perdida."
