@@ -1,0 +1,10 @@
+{
+  "TEMPLATE.actor.label": "Nexar",
+  "TEMPLATE.item.label": "Objeto",
+  "LAS_TORRES_MALDITAS": {
+    "attributes": {
+      "salud": "Salud",
+      "energia": "Energía"
+    }
+  }
+}
