@@ -1,9 +1,6 @@
 {
-    "name": "Las Torres Malditas Template",
-    "type": "Actor",
-    "data": {
-        "description": "Plantilla básica para PNJs."
-    },
-    "items": [],
-    "effects": []
+  "name": "Plantilla básica",
+  "type": "actor",
+  "data": {},
+  "items": []
 }
