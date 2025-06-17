@@ -1,0 +1,95 @@
+FoundryVTT | 2025-06-09 16:23:35 | [[32minfo[39m] Running on Node.js - Version 20.18.3
+FoundryVTT | 2025-06-09 16:23:35 | [[32minfo[39m] Foundry Virtual Tabletop - Version 13 Build 345
+FoundryVTT | 2025-06-09 16:23:35 | [[32minfo[39m] User Data Directory - "/home/quique/.local/share/FoundryVTT"
+FoundryVTT | 2025-06-09 16:23:35 | [[32minfo[39m] Application Options:
+{
+  "compressStatic": true,
+  "fullscreen": false,
+  "hostname": null,
+  "language": "es.foundryvtt-es",
+  "localHostname": null,
+  "port": 30000,
+  "proxyPort": null,
+  "proxySSL": false,
+  "routePrefix": null,
+  "updateChannel": "stable",
+  "upnp": true,
+  "awsConfig": null,
+  "compressSocket": true,
+  "cssTheme": "dark",
+  "deleteNEDB": false,
+  "hotReload": false,
+  "passwordSalt": null,
+  "sslCert": null,
+  "sslKey": null,
+  "world": null,
+  "serviceConfig": null,
+  "telemetry": true,
+  "adminPassword": null,
+  "noBackups": false
+}
+FoundryVTT | 2025-06-09 16:23:35 | [[32minfo[39m] Software license verification succeeded
+FoundryVTT | 2025-06-09 16:23:35 | [[32minfo[39m] Requesting UPnP port forwarding to destination port 30000
+FoundryVTT | 2025-06-09 16:23:35 | [[32minfo[39m] Running Electron application with version 34.4.0 using Chromium 132.0.6834.210
+FoundryVTT | 2025-06-09 16:23:35 | [[32minfo[39m] Server started and listening on port 30000
+FoundryVTT | 2025-06-09 16:23:37 | [[32minfo[39m] Created client session f81ab8c08bc21f068837cb8f
+[542842:0609/162338.046583:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 1 times!
+[542842:0609/162341.927063:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 2 times!
+[542842:0609/162341.929402:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 3 times!
+FoundryVTT | 2025-06-09 16:23:43 | [[32minfo[39m] Connected to database "actors"
+FoundryVTT | 2025-06-09 16:23:43 | [[32minfo[39m] Launching World | Loading World Data - 7%
+FoundryVTT | 2025-06-09 16:23:43 | [[32minfo[39m] Connected to database "cards"
+FoundryVTT | 2025-06-09 16:23:43 | [[32minfo[39m] Launching World | Loading World Data - 14%
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Connected to database "messages"
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Launching World | Loading World Data - 21%
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Connected to database "combats"
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Launching World | Loading World Data - 29%
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Connected to database "fog"
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Launching World | Loading World Data - 36%
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Connected to database "folders"
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Launching World | Loading World Data - 43%
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Connected to database "items"
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Launching World | Loading World Data - 50%
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Connected to database "journal"
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Launching World | Loading World Data - 57%
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Connected to database "macros"
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Launching World | Loading World Data - 64%
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Connected to database "playlists"
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Launching World | Loading World Data - 71%
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Connected to database "tables"
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Launching World | Loading World Data - 79%
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Connected to database "scenes"
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Launching World | Loading World Data - 86%
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Connected to database "settings"
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Launching World | Loading World Data - 93%
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Connected to database "users"
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Launching World | Loading World Data - 100%
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Launching World | Migrating World Data - 7%
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Launching World | Migrating World Data - 14%
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Launching World | Migrating World Data - 21%
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Launching World | Migrating World Data - 29%
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Launching World | Migrating World Data - 36%
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Launching World | Migrating World Data - 43%
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Launching World | Migrating World Data - 50%
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Launching World | Migrating World Data - 57%
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Launching World | Migrating World Data - 64%
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Launching World | Migrating World Data - 71%
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Launching World | Migrating World Data - 79%
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Launching World | Migrating World Data - 86%
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Launching World | Migrating World Data - 93%
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Launching World | Migrating World Data - 100%
+FoundryVTT | 2025-06-09 16:23:44 | [[32minfo[39m] Launching World | Complete
+FoundryVTT | 2025-06-09 16:24:37 | [[32minfo[39m] User authentication successful for user Gamemaster
+FoundryVTT | 2025-06-09 16:24:39 | [[33mwarn[39m] The system "las-torres-malditas" is using "gridDistance" which is deprecated in favor of "grid.distance".
+Deprecated since Version 12
+Backwards-compatible support will be removed in Version 14
+FoundryVTT | 2025-06-09 16:24:39 | [[33mwarn[39m] The system "las-torres-malditas" is using "gridUnits" which is deprecated in favor of "grid.units".
+Deprecated since Version 12
+Backwards-compatible support will be removed in Version 14
+FoundryVTT | 2025-06-09 16:24:39 | [[32minfo[39m] No system update for Las Torres Malditas is currently available.
+FoundryVTT | 2025-06-09 16:24:39 | [[32minfo[39m] Vended World data to User [EWPeogDJZgqJwdQj] in 391ms
+[542803:0609/162456.678270:ERROR:atom_cache.cc(229)] Add chromium/from-privileged to kAtomsToCache
+FoundryVTT | 2025-06-09 16:25:01 | [[32minfo[39m] Deleted Actor with id [nIzKylhnt1oem8m9]
+FoundryVTT | 2025-06-09 16:25:09 | [[32minfo[39m] Created Actor with id [WNUtnlGGdZ44ghyB]
+FoundryVTT | 2025-06-10 08:29:20 | [[32minfo[39m] Shutting down Foundry Virtual Tabletop server
+FoundryVTT | 2025-06-10 08:29:20 | [[32minfo[39m] Shut-down success. Goodbye!
