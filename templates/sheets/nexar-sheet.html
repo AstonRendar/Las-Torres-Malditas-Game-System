@@ -1,0 +1,103 @@
+<form class="nexar-sheet" autocomplete="off">
+  <header class="sheet-header">
+    <h1><input name="name" type="text" value="{{actor.name}}" placeholder="Nombre del personaje" /></h1>
+  </header>
+
+  <section class="sheet-body">
+    <h2>Atributos</h2>
+    <h3>Cuerpo</h3>
+    <div class="attributes">
+      <label>Vigor: <input type="number" name="system.atributos.cuerpo.vigor" value="{{system.atributos.cuerpo.vigor}}" /></label>
+      <label>Maña: <input type="number" name="system.atributos.cuerpo.maña" value="{{system.atributos.cuerpo.maña}}" /></label>
+      <label>Fortaleza: <input type="number" name="system.atributos.cuerpo.fortaleza" value="{{system.atributos.cuerpo.fortaleza}}" /></label>
+      <label>Presteza: <input type="number" name="system.atributos.cuerpo.presteza" value="{{system.atributos.cuerpo.presteza}}" /></label>
+    </div>
+    <h3>Mente</h3>
+    <div class="attributes">
+      <label>Ingenio: <input type="number" name="system.atributos.mente.ingenio" value="{{system.atributos.mente.ingenio}}" /></label>
+      <label>Instinto: <input type="number" name="system.atributos.mente.instinto" value="{{system.atributos.mente.instinto}}" /></label>
+      <label>Tenacidad: <input type="number" name="system.atributos.mente.tenacidad" value="{{system.atributos.mente.tenacidad}}" /></label>
+      <label>Conocimiento: <input type="number" name="system.atributos.mente.conocimiento" value="{{system.atributos.mente.onocimiento}}" /></label>
+    </div>
+    <h3>Vínculo</h3>
+    <div class="attributes">
+      <label>Influencia: <input type="number" name="system.atributos.vinculo.influencia" value="{{system.atributos.vinculo.Influencia}}" /></label>
+      <label>Porte: <input type="number" name="system.atributos.vinculo.porte" value="{{system.atributos.vinculo.Porte}}" /></label>
+      <label>Empatía: <input type="number" name="system.atributos.vinculo.Empatía" value="{{system.atributos.vinculo.Empatía}}" /></label>
+      <label>Gracia: <input type="number" name="system.atributos.vinculo.Gracia" value="{{system.atributos.vinculo.Gracia}}" /></label>
+    </div>
+    <h3>Destino</h3>
+    <div class="attributes">
+      <label>Fortuna: <input type="number" name="system.atributos.fuerza" value="{{system.atributos.fuerza}}" /></label>
+      <label>Poder: <input type="number" name="system.atributos.destreza" value="{{system.atributos.destreza}}" /></label>
+    </div>
+  </section>
+</form>
+<section class="sheet-footer">
+  <button type="submit" class="save-button">Guardar</button>
+  <button type="reset" class="reset-button">Reiniciar</button>
+</section>
+<script>        
+  document.querySelector('.nexar-sheet').addEventListener('submit', function(event) {
+    event.preventDefault();
+    // Aquí puedes agregar la lógica para guardar los datos del formulario
+    console.log('Datos guardados:', new FormData(event.target));
+  });
+
+  document.querySelector('.nexar-sheet').addEventListener('reset', function(event) {
+    // Aquí puedes agregar la lógica para reiniciar los datos del formulario
+    console.log('Formulario reiniciado');
+  });
+</script>
+<style>
+  .nexar-sheet {    
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: auto;
+  }
+  .sheet-header, .sheet-body, .sheet-footer {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  .sheet-header h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  .sheet-body h2, .sheet-body h3 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .attributes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .attributes label {
+    flex: 1 1 calc(50% - 10px);
+    display: flex;
+    justify-content: space-between;
+  }
+  .sheet-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .save-button, .reset-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .save-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+  }
+  .reset-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+  }
+  .save-button:hover, .reset-button:hover {
+    opacity: 0.8;
+  }
+</style>

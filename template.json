@@ -1,6 +1,77 @@
 {
-  "name": "Plantilla básica",
-  "type": "actor",
-  "data": {},
-  "items": []
+  "Actor": {
+    "types": [
+      "Nexar"
+    ],
+    "Nexar": {
+      "data": {
+        "atributos": {
+          "cuerpo": {
+            "vigor": {
+              "type": "Number",
+              "default": 0
+            },
+            "maña": {
+              "type": "Number",
+              "default": 0
+            },
+            "fortaleza": {
+              "type": "Number",
+              "default": 0
+            },
+            "presteza": {
+              "type": "Number",
+              "default": 0
+            }
+          },
+          "mente": {
+            "ingenio": {
+              "type": "Number",
+              "default": 0
+            },
+            "instinto": {
+              "type": "Number",
+              "default": 0
+            },
+            "tenacidad": {
+              "type": "Number",
+              "default": 0
+            },
+            "conocimiento": {
+              "type": "Number",
+              "default": 0
+            }
+          },
+          "vinculo": {
+            "influencia": {
+              "type": "Number",
+              "default": 0
+            },
+            "porte": {
+              "type": "Number",
+              "default": 0
+            },
+            "empatía": {
+              "type": "Number",
+              "default": 0
+            },
+            "gracia": {
+              "type": "Number",
+              "default": 0
+            }
+          },
+          "destino": {
+            "fortuna": {
+              "type": "Number",
+              "default": 0
+            },
+            "poder": {
+              "type": "Number",
+              "default": 0
+            }
+          }
+        }
+      }
+    }
+  }
 }

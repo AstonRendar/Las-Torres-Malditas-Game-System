@@ -4,16 +4,23 @@
   "description": "Sistema de rol completo para Foundry VTT, con ambientación propia, mecánica original y soporte completo de lore, talentos y enemigos.",
   "version": "0.1.0",
   "compatibility": {
-    "minimum": "11",
-    "verified": "11"
+    "minimum": "13",
+    "verified": "13"
   },
   "authors": [
     {
       "name": "José Enrique Labordeta"
     }
   ],
-  "scripts": ["scripts/main.js"],
-  "styles": ["styles/system.css"],
+  "scripts": [
+    "scripts/main.js"
+  ],
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "styles/system.css"
+  ],
   "packs": [],
   "languages": [
     {
@@ -22,24 +29,41 @@
       "path": "lang/es.json"
     }
   ],
-  "esmodules": ["scripts/main.js"],
   "socket": false,
-  "gridDistance": 1,
-  "gridUnits": "m",
+  "grid": {
+    "distance": 1,
+    "units": "m"
+  },
   "primaryTokenAttribute": "atributos.salud",
-  "secondaryTokenAttribute": "atributos.energia",
+  "secondaryTokenAttribute": "atributos.eter",
+  "actorTypes": ["Nexar"],
+  "actors": {
+    "types": ["Nexar"],
+    "sheets": [
+      {
+        "type": "Nexar",
+        "id": "las-torres-malditas.NexarSheet",
+        "label": "Nexar",
+        "path": "templates/sheets/nexar-sheet.html",
+        "class": "NexarSheet",
+        "module": false,
+        "system": true,
+        "default": true
+      }
+    ]
+  },
   "relationships": {
-		"requires": [
-			{
-				"id": "lib-wrapper",
-				"type": "module",
-				"compatibility": {
-					"minimum": "1.13.0.0"
-				},
-				"reason": "libWrapper is used to patch Foundry methods and functions, extending or altering their functionality."
-			}
-		]
-	},
+    "requires": [
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "compatibility": {
+          "minimum": "1.13.0.0"
+        },
+        "reason": "libWrapper is used to patch Foundry methods and functions, extending or altering their functionality."
+      }
+    ]
+  },
   "manifest": "https://raw.githubusercontent.com/AstonRendar/Las-Torres-Malditas-Game-System/master/system.json",
   "download": "https://github.com/AstonRendar/Las-Torres-Malditas-Game-System/archive/refs/heads/master.zip",
   "license": "MIT"
